@@ -3,6 +3,10 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    display: none;
 }
 header{
     height: 100vh;
@@ -32,7 +36,6 @@ nav{
 .BotaoLink{
     display: flex;
     align-items: center;
-
     padding: 0vw 0.5vw;
 
     background-color: white;
@@ -57,4 +60,40 @@ a{
 #T1{
     display: flex;
     justify-content: center;
+}
+.foto{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+
+    height: auto;
+    width: 100vw;
+
+    background-color: rgb(230, 161, 112);
+}
+article{
+    height: 150vh;
+    width: 60%;
+    margin: 2vw 0vw;
+    padding: 7vw 3vw;
+    padding-top: 0%;
+
+    background-color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+article h1{
+    padding-top: 7vw;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 20%;
 }
